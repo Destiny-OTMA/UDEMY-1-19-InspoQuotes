@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		562E716222FD6D1C00B9813E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E716122FD6D1C00B9813E /* AppDelegate.swift */; };
-		562E716422FD6D1C00B9813E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E716322FD6D1C00B9813E /* ViewController.swift */; };
 		562E716722FD6D1C00B9813E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562E716522FD6D1C00B9813E /* Main.storyboard */; };
 		562E716A22FD6D1C00B9813E /* UDEMY_1_19_InspoQuotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 562E716822FD6D1C00B9813E /* UDEMY_1_19_InspoQuotes.xcdatamodeld */; };
 		562E716C22FD6D1D00B9813E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562E716B22FD6D1D00B9813E /* Assets.xcassets */; };
 		562E716F22FD6D1D00B9813E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562E716D22FD6D1D00B9813E /* LaunchScreen.storyboard */; };
+		5643654722FD743A00E4BAB0 /* QuoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643654622FD743A00E4BAB0 /* QuoteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		562E715E22FD6D1C00B9813E /* UDEMY-1-19-InspoQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UDEMY-1-19-InspoQuotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		562E716122FD6D1C00B9813E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		562E716322FD6D1C00B9813E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		562E716622FD6D1C00B9813E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		562E716922FD6D1C00B9813E /* UDEMY_1_19_InspoQuotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UDEMY_1_19_InspoQuotes.xcdatamodel; sourceTree = "<group>"; };
 		562E716B22FD6D1D00B9813E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		562E716E22FD6D1D00B9813E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		562E717022FD6D1D00B9813E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5643654622FD743A00E4BAB0 /* QuoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +57,38 @@
 			isa = PBXGroup;
 			children = (
 				562E716122FD6D1C00B9813E /* AppDelegate.swift */,
-				562E716322FD6D1C00B9813E /* ViewController.swift */,
-				562E716522FD6D1C00B9813E /* Main.storyboard */,
-				562E716B22FD6D1D00B9813E /* Assets.xcassets */,
-				562E716D22FD6D1D00B9813E /* LaunchScreen.storyboard */,
+				5643654822FD7B5300E4BAB0 /* Controllers */,
+				5643654922FD7B7D00E4BAB0 /* Views */,
+				5643654A22FD7B9400E4BAB0 /* Supporting Files */,
 				562E717022FD6D1D00B9813E /* Info.plist */,
 				562E716822FD6D1C00B9813E /* UDEMY_1_19_InspoQuotes.xcdatamodeld */,
 			);
 			path = "UDEMY-1-19-InspoQuotes";
+			sourceTree = "<group>";
+		};
+		5643654822FD7B5300E4BAB0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5643654622FD743A00E4BAB0 /* QuoteTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5643654922FD7B7D00E4BAB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				562E716522FD6D1C00B9813E /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5643654A22FD7B9400E4BAB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				562E716B22FD6D1D00B9813E /* Assets.xcassets */,
+				562E716D22FD6D1D00B9813E /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 562E715922FD6D1C00B9813E /* Build configuration list for PBXProject "UDEMY-1-19-InspoQuotes" */;
+			buildConfigurationList = 562E715922FD6D1C00B9813E /* Build configuration list for PBXProject "InspoQuotes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				562E716A22FD6D1C00B9813E /* UDEMY_1_19_InspoQuotes.xcdatamodeld in Sources */,
-				562E716422FD6D1C00B9813E /* ViewController.swift in Sources */,
+				5643654722FD743A00E4BAB0 /* QuoteTableViewController.swift in Sources */,
 				562E716222FD6D1C00B9813E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OverTheMoonApps.UDEMY-1-19-InspoQuotes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,14 +338,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OverTheMoonApps.UDEMY-1-19-InspoQuotes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		562E715922FD6D1C00B9813E /* Build configuration list for PBXProject "UDEMY-1-19-InspoQuotes" */ = {
+		562E715922FD6D1C00B9813E /* Build configuration list for PBXProject "InspoQuotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				562E717122FD6D1D00B9813E /* Debug */,
