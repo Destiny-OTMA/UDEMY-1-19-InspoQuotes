@@ -13,10 +13,11 @@
 		562E716C22FD6D1D00B9813E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562E716B22FD6D1D00B9813E /* Assets.xcassets */; };
 		562E716F22FD6D1D00B9813E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562E716D22FD6D1D00B9813E /* LaunchScreen.storyboard */; };
 		5643654722FD743A00E4BAB0 /* QuoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643654622FD743A00E4BAB0 /* QuoteTableViewController.swift */; };
+		5686559522FF2ADE006E40B8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5686559422FF2ADE006E40B8 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		562E715E22FD6D1C00B9813E /* UDEMY-1-19-InspoQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UDEMY-1-19-InspoQuotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562E715E22FD6D1C00B9813E /* UDEMY-1-19-UDEMY-1-19-InspoQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UDEMY-1-19-UDEMY-1-19-InspoQuotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		562E716122FD6D1C00B9813E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		562E716622FD6D1C00B9813E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		562E716922FD6D1C00B9813E /* UDEMY_1_19_InspoQuotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UDEMY_1_19_InspoQuotes.xcdatamodel; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		562E716E22FD6D1D00B9813E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		562E717022FD6D1D00B9813E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5643654622FD743A00E4BAB0 /* QuoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewController.swift; sourceTree = "<group>"; };
+		5686559422FF2ADE006E40B8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5686559522FF2ADE006E40B8 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,13 +45,14 @@
 			children = (
 				562E716022FD6D1C00B9813E /* UDEMY-1-19-InspoQuotes */,
 				562E715F22FD6D1C00B9813E /* Products */,
+				5686559322FF2ADE006E40B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		562E715F22FD6D1C00B9813E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				562E715E22FD6D1C00B9813E /* UDEMY-1-19-InspoQuotes.app */,
+				562E715E22FD6D1C00B9813E /* UDEMY-1-19-UDEMY-1-19-InspoQuotes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,12 +95,20 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5686559322FF2ADE006E40B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5686559422FF2ADE006E40B8 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		562E715D22FD6D1C00B9813E /* UDEMY-1-19-InspoQuotes */ = {
+		562E715D22FD6D1C00B9813E /* UDEMY-1-19-UDEMY-1-19-InspoQuotes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 562E717322FD6D1D00B9813E /* Build configuration list for PBXNativeTarget "UDEMY-1-19-InspoQuotes" */;
+			buildConfigurationList = 562E717322FD6D1D00B9813E /* Build configuration list for PBXNativeTarget "UDEMY-1-19-UDEMY-1-19-InspoQuotes" */;
 			buildPhases = (
 				562E715A22FD6D1C00B9813E /* Sources */,
 				562E715B22FD6D1C00B9813E /* Frameworks */,
@@ -106,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = "UDEMY-1-19-InspoQuotes";
+			name = "UDEMY-1-19-UDEMY-1-19-InspoQuotes";
 			productName = "UDEMY-1-19-InspoQuotes";
-			productReference = 562E715E22FD6D1C00B9813E /* UDEMY-1-19-InspoQuotes.app */;
+			productReference = 562E715E22FD6D1C00B9813E /* UDEMY-1-19-UDEMY-1-19-InspoQuotes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,10 +135,15 @@
 				TargetAttributes = {
 					562E715D22FD6D1C00B9813E = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = 562E715922FD6D1C00B9813E /* Build configuration list for PBXProject "InspoQuotes" */;
+			buildConfigurationList = 562E715922FD6D1C00B9813E /* Build configuration list for PBXProject "UDEMY-1-19-InspoQuotes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				562E715D22FD6D1C00B9813E /* UDEMY-1-19-InspoQuotes */,
+				562E715D22FD6D1C00B9813E /* UDEMY-1-19-UDEMY-1-19-InspoQuotes */,
 			);
 		};
 /* End PBXProject section */
@@ -345,7 +362,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		562E715922FD6D1C00B9813E /* Build configuration list for PBXProject "InspoQuotes" */ = {
+		562E715922FD6D1C00B9813E /* Build configuration list for PBXProject "UDEMY-1-19-InspoQuotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				562E717122FD6D1D00B9813E /* Debug */,
@@ -354,7 +371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		562E717322FD6D1D00B9813E /* Build configuration list for PBXNativeTarget "UDEMY-1-19-InspoQuotes" */ = {
+		562E717322FD6D1D00B9813E /* Build configuration list for PBXNativeTarget "UDEMY-1-19-UDEMY-1-19-InspoQuotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				562E717422FD6D1D00B9813E /* Debug */,
